@@ -1,4 +1,4 @@
-﻿namespace Xamarin.Material.Samples.Lists.Application.SingleLineItems
+﻿namespace Xamarin.Material.Samples.Lists.SingleLineItems
 {
     class SingleLineItem
     {

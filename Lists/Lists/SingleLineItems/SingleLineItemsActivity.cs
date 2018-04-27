@@ -5,9 +5,9 @@ using Android.Support.V7.Widget;
 using Android.Util;
 using System;
 
-namespace Xamarin.Material.Samples.Lists.Application.SingleLineItems
+namespace Xamarin.Material.Samples.Lists.SingleLineItems
 {
-    [Activity(Label = "@string/single_line_items_label", MainLauncher=true, Theme = "@style/MyTheme")]
+    [Activity(Label = "@string/single_line_items_label", MainLauncher=true, Theme = "@style/Theme.AppCompat.Light")]
     public class SingleLineItemsActivity : AppCompatActivity
     {
         private RecyclerView _recyclerView;

@@ -3026,12 +3026,6 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f08007e
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230846;
 			
-			// aapt resource value: 0x7f08016c
-			public const int MyTheme = 2131231084;
-			
-			// aapt resource value: 0x7f08016d
-			public const int MyTheme_Base = 2131231085;
-			
 			// aapt resource value: 0x7f08001e
 			public const int Platform_AppCompat = 2131230750;
 			

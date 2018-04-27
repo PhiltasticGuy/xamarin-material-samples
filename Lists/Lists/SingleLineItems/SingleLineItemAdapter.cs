@@ -1,7 +1,7 @@
 ﻿using Android.Support.V7.Widget;
 using Android.Views;
 
-namespace Xamarin.Material.Samples.Lists.Application.SingleLineItems
+namespace Xamarin.Material.Samples.Lists.SingleLineItems
 {
     class SingleLineItemAdapter : RecyclerView.Adapter
     { 
