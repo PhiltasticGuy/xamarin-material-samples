@@ -1,6 +1,6 @@
-﻿namespace Xamarin.Material.Samples.Lists.SingleLineItems
+﻿namespace Xamarin.Material.Samples.Lists
 {
-    class SingleLineItem
+    class ListItem
     {
         public int Id { get; set; }
         public string PrimaryText { get; set; }

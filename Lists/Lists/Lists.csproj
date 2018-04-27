@@ -98,9 +98,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SingleLineItems\SingleLineItem.cs" />
+    <Compile Include="ListItem.cs" />
     <Compile Include="SingleLineItems\SingleLineItemAdapter.cs" />
-    <Compile Include="SingleLineItems\SingleLineItemDataSource.cs" />
+    <Compile Include="ListItemDataSource.cs" />
     <Compile Include="SingleLineItems\SingleLineItemsActivity.cs" />
     <Compile Include="SingleLineItems\SingleLineItemViewHolder.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

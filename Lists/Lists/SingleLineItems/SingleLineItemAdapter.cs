@@ -5,11 +5,11 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
 {
     class SingleLineItemAdapter : RecyclerView.Adapter
     { 
-        public SingleLineItemDataSource Items { get; private set; }
+        public ListItemDataSource Items { get; private set; }
 
         public override int ItemCount => Items.Count;
 
-        public SingleLineItemAdapter(SingleLineItemDataSource items) => Items = items;
+        public SingleLineItemAdapter(ListItemDataSource items) => Items = items;
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {

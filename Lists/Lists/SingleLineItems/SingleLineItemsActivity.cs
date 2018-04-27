@@ -14,7 +14,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
         private SingleLineItemAdapter _adapter;
         private LinearLayoutManager _layoutManager;
 
-        private SingleLineItemDataSource _items;
+        private ListItemDataSource _items;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -37,7 +37,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
                     );
                 _recyclerView.AddItemDecoration(dividerItemDecoration);
 
-                _items = new SingleLineItemDataSource();
+                _items = new ListItemDataSource();
                 _adapter = new SingleLineItemAdapter(_items);
 
                 _recyclerView.SetAdapter(_adapter);
