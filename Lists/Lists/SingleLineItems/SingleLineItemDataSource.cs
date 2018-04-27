@@ -4,6 +4,45 @@
     {
         static SingleLineItem[] BuiltInItems = {
             new SingleLineItem {
+                PrimaryText = "SingleLineItemSingleLineItemSingleLineItem"
+            },
+            new SingleLineItem {
+                PrimaryText = "SingleLineItem SingleLineItem SingleLineItem"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item Single Line Item Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
+                PrimaryText = "Single Line Item"
+            },
+            new SingleLineItem {
                 PrimaryText = "Single Line Item"
             },
             new SingleLineItem {

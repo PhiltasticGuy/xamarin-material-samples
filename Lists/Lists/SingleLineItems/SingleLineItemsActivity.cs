@@ -12,7 +12,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
     {
         private RecyclerView _recyclerView;
         private SingleLineItemAdapter _adapter;
-        private RecyclerView.LayoutManager _layoutManager;
+        private LinearLayoutManager _layoutManager;
 
         private SingleLineItemDataSource _items;
 
@@ -27,8 +27,15 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
                 _recyclerView = FindViewById<RecyclerView>(Resource.Id.rvSingleItems);
                 _recyclerView.HasFixedSize = true;
 
-                _layoutManager = new LinearLayoutManager(this);
+                _layoutManager = new LinearLayoutManager(this, LinearLayoutManager.Vertical, false);
                 _recyclerView.SetLayoutManager(_layoutManager);
+
+                DividerItemDecoration dividerItemDecoration = 
+                    new DividerItemDecoration(
+                        _recyclerView.Context,
+                        _layoutManager.Orientation
+                    );
+                _recyclerView.AddItemDecoration(dividerItemDecoration);
 
                 _items = new SingleLineItemDataSource();
                 _adapter = new SingleLineItemAdapter(_items);
