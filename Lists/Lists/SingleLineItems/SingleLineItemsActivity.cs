@@ -8,7 +8,7 @@ using System;
 
 namespace Xamarin.Material.Samples.Lists.SingleLineItems
 {
-    [Activity(Label = "@string/single_line_items_label", MainLauncher=true, Theme = "@style/Theme.AppCompat.Light")]
+    [Activity(Label = "@string/single_line_items_label", MainLauncher=true, Theme = "@style/AppTheme")]
     public class SingleLineItemsActivity : AppCompatActivity
     {
         private RecyclerView _recyclerView;

@@ -2621,6 +2621,12 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f0800a1
 			public const int Animation_AppCompat_Tooltip = 2131230881;
 			
+			// aapt resource value: 0x7f08016c
+			public const int AppTheme = 2131231084;
+			
+			// aapt resource value: 0x7f08016d
+			public const int AppTheme_NoActionBar = 2131231085;
+			
 			// aapt resource value: 0x7f0800a2
 			public const int Base_AlertDialog_AppCompat = 2131230882;
 			
