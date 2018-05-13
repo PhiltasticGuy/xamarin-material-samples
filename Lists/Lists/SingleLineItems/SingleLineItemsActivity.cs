@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.OS;
+using Android.Support.V4.Content;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Util;
@@ -29,12 +30,10 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
 
                 _layoutManager = new LinearLayoutManager(this, LinearLayoutManager.Vertical, false);
                 _recyclerView.SetLayoutManager(_layoutManager);
-
-                //TODO: PT- How do we remove the divider from the last item?
-                DividerItemDecoration dividerItemDecoration = 
-                    new DividerItemDecoration(
-                        _recyclerView.Context,
-                        _layoutManager.Orientation
+                
+                VerticalInnerDividerItemDecorator dividerItemDecoration = 
+                    new VerticalInnerDividerItemDecorator(
+                        ContextCompat.GetDrawable(_recyclerView.Context, Resource.Drawable.divider)
                     );
                 _recyclerView.AddItemDecoration(dividerItemDecoration);
 
