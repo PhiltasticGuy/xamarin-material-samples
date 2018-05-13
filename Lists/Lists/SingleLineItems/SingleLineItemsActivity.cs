@@ -11,7 +11,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
     public class SingleLineItemsActivity : AppCompatActivity
     {
         private RecyclerView _recyclerView;
-        private SingleLineItemAdapter _adapter;
+        private RecyclerView.Adapter _adapter;
         private LinearLayoutManager _layoutManager;
 
         private ListItemDataSource _items;
@@ -30,6 +30,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
                 _layoutManager = new LinearLayoutManager(this, LinearLayoutManager.Vertical, false);
                 _recyclerView.SetLayoutManager(_layoutManager);
 
+                //TODO: PT- How do we remove the divider from the last item?
                 DividerItemDecoration dividerItemDecoration = 
                     new DividerItemDecoration(
                         _recyclerView.Context,
@@ -38,7 +39,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
                 _recyclerView.AddItemDecoration(dividerItemDecoration);
 
                 _items = new ListItemDataSource();
-                _adapter = new SingleLineItemAdapter(_items);
+                _adapter = new SingleLineItemAvatarAdapter(_items);
 
                 _recyclerView.SetAdapter(_adapter);
             }

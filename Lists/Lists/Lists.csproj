@@ -99,9 +99,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ListItem.cs" />
+    <Compile Include="SingleLineItems\SingleLineItemAvatarAdapter.cs" />
     <Compile Include="SingleLineItems\SingleLineItemAdapter.cs" />
     <Compile Include="ListItemDataSource.cs" />
     <Compile Include="SingleLineItems\SingleLineItemsActivity.cs" />
+    <Compile Include="SingleLineItems\SingleLineItemAvatarViewHolder.cs" />
     <Compile Include="SingleLineItems\SingleLineItemViewHolder.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

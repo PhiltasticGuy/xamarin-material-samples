@@ -6,7 +6,7 @@
     android:gravity="center_vertical">
     <TextView
         android:id="@+id/tvPrimary"
-        android:text="Text"
+        android:text="The super long text for this title is too long for the width."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="Roboto Regular"
