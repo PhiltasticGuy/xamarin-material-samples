@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+    <RelativeLayout
+        android:id="@+id/icon_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+        <ImageView
+            android:id="@+id/icon_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle" />
+        <TextView
+            android:id="@+id/icon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:text="P" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/message_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft="72dp"
+        android:paddingRight="16dp">
+        <TextView
+            android:id="@+id/tvPrimary"
+            android:text="The super long text for this title is too long for the width."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="Roboto Regular"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:maxLines="1" />
+    </LinearLayout>
+</RelativeLayout>

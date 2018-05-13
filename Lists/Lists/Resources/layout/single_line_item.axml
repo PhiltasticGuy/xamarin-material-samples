@@ -11,8 +11,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="Roboto Regular"
         android:textSize="16sp"
+        android:paddingTop="8dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:ellipsize="end"
-        android:maxLines="1"/>
+        android:maxLines="1" />
 </LinearLayout>

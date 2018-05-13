@@ -1792,46 +1792,49 @@ namespace Xamarin.Material.Samples.Lists
 			public const int abc_vector_test = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int notification_action_background = 2130837587;
+			public const int circle = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int notification_bg = 2130837588;
+			public const int notification_action_background = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int notification_bg_low = 2130837589;
+			public const int notification_bg = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int notification_bg_low_normal = 2130837590;
+			public const int notification_bg_low = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int notification_bg_low_pressed = 2130837591;
+			public const int notification_bg_low_normal = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int notification_bg_normal = 2130837592;
+			public const int notification_bg_low_pressed = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int notification_bg_normal_pressed = 2130837593;
+			public const int notification_bg_normal = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int notification_icon_background = 2130837594;
-			
-			// aapt resource value: 0x7f02005f
-			public const int notification_template_icon_bg = 2130837599;
-			
-			// aapt resource value: 0x7f020060
-			public const int notification_template_icon_low_bg = 2130837600;
+			public const int notification_bg_normal_pressed = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int notification_tile_bg = 2130837595;
+			public const int notification_icon_background = 2130837595;
+			
+			// aapt resource value: 0x7f020060
+			public const int notification_template_icon_bg = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int notification_template_icon_low_bg = 2130837601;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notify_panel_notification_icon_bg = 2130837596;
+			public const int notification_tile_bg = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int tooltip_frame_dark = 2130837597;
+			public const int notify_panel_notification_icon_bg = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int tooltip_frame_light = 2130837598;
+			public const int tooltip_frame_dark = 2130837598;
+			
+			// aapt resource value: 0x7f02005f
+			public const int tooltip_frame_light = 2130837599;
 			
 			static Drawable()
 			{
@@ -2005,8 +2008,17 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f06003d
 			public const int icon = 2131099709;
 			
+			// aapt resource value: 0x7f06007a
+			public const int icon_container = 2131099770;
+			
 			// aapt resource value: 0x7f060077
 			public const int icon_group = 2131099767;
+			
+			// aapt resource value: 0x7f06007b
+			public const int icon_profile = 2131099771;
+			
+			// aapt resource value: 0x7f06007c
+			public const int icon_text = 2131099772;
 			
 			// aapt resource value: 0x7f06002c
 			public const int ifRoom = 2131099692;
@@ -2038,8 +2050,11 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f06006c
 			public const int media_actions = 2131099756;
 			
-			// aapt resource value: 0x7f06007b
-			public const int message = 2131099771;
+			// aapt resource value: 0x7f06007f
+			public const int message = 2131099775;
+			
+			// aapt resource value: 0x7f06007d
+			public const int message_container = 2131099773;
 			
 			// aapt resource value: 0x7f060023
 			public const int middle = 2131099683;
@@ -2083,8 +2098,8 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f060070
 			public const int right_side = 2131099760;
 			
-			// aapt resource value: 0x7f06007a
-			public const int rvSingleItems = 2131099770;
+			// aapt resource value: 0x7f06007e
+			public const int rvSingleItems = 2131099774;
 			
 			// aapt resource value: 0x7f06001a
 			public const int screen = 2131099674;
@@ -2398,13 +2413,16 @@ namespace Xamarin.Material.Samples.Lists
 			public const int single_line_item = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int single_line_item_main = 2130903086;
+			public const int single_line_item_avatar = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int support_simple_spinner_dropdown_item = 2130903087;
+			public const int single_line_item_main = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int tooltip = 2130903088;
+			public const int support_simple_spinner_dropdown_item = 2130903088;
+			
+			// aapt resource value: 0x7f030031
+			public const int tooltip = 2130903089;
 			
 			static Layout()
 			{

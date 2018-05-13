@@ -16,7 +16,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
             View itemView =
                 LayoutInflater
                     .From(parent.Context)
-                    .Inflate(Resource.Layout.single_line_item, parent, false);
+                    .Inflate(Resource.Layout.single_line_item_avatar, parent, false);
 
             SingleLineItemViewHolder vh = new SingleLineItemViewHolder(itemView);
 
@@ -28,6 +28,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
             SingleLineItemViewHolder vh = holder as SingleLineItemViewHolder;
             
             vh.PrimaryText.Text = Items[position].PrimaryText + $" #{(position + 1)}";
+            vh.IconText.Text = 'T'.ToString();
         }
     }
 }
