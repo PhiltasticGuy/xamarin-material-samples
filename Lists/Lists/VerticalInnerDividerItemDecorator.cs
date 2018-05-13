@@ -14,7 +14,8 @@ namespace Xamarin.Material.Samples.Lists
 
         public override void OnDraw(Canvas canvas, RecyclerView parent, RecyclerView.State state)
         {
-            if (parent.GetLayoutManager().LayoutDirection == LinearLayoutManager.Horizontal)
+            //TODO: PT- We also assume that the LayoutManager is a LinearLayoutManager. What if it isn't?
+            if ((parent.GetLayoutManager() as LinearLayoutManager).Orientation  == LinearLayoutManager.Horizontal)
                 throw new System.InvalidOperationException($"The {nameof(LinearLayoutManager)} orientation must be set to Vertical in order to implement the {nameof(VerticalInnerDividerItemDecorator)}");
 
             int dividerLeft = parent.PaddingLeft;
