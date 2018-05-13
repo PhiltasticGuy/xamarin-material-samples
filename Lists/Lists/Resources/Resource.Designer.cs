@@ -1460,6 +1460,45 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f050005
 			public const int item_touch_helper_swipe_escape_velocity = 2131034117;
 			
+			// aapt resource value: 0x7f05007d
+			public const int list_avatar_font_size = 2131034237;
+			
+			// aapt resource value: 0x7f050076
+			public const int list_avatar_item_height = 2131034230;
+			
+			// aapt resource value: 0x7f05007f
+			public const int list_avatar_padding_left = 2131034239;
+			
+			// aapt resource value: 0x7f050080
+			public const int list_avatar_padding_right = 2131034240;
+			
+			// aapt resource value: 0x7f05007e
+			public const int list_avatar_padding_top = 2131034238;
+			
+			// aapt resource value: 0x7f050081
+			public const int list_avatar_text_padding_left = 2131034241;
+			
+			// aapt resource value: 0x7f05007c
+			public const int list_avatar_width_height = 2131034236;
+			
+			// aapt resource value: 0x7f050075
+			public const int list_item_height = 2131034229;
+			
+			// aapt resource value: 0x7f050078
+			public const int list_padding_bottom = 2131034232;
+			
+			// aapt resource value: 0x7f050079
+			public const int list_padding_left = 2131034233;
+			
+			// aapt resource value: 0x7f05007a
+			public const int list_padding_right = 2131034234;
+			
+			// aapt resource value: 0x7f050077
+			public const int list_padding_top = 2131034231;
+			
+			// aapt resource value: 0x7f05007b
+			public const int list_text_primary_font_size = 2131034235;
+			
 			// aapt resource value: 0x7f05006a
 			public const int notification_action_icon_size = 2131034218;
 			
