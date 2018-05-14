@@ -28,7 +28,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
             SingleLineItemAvatarViewHolder vh = holder as SingleLineItemAvatarViewHolder;
             
             vh.PrimaryText.Text = Items[position].PrimaryText + $" #{(position + 1)}";
-            vh.IconText.Text = Items[position].AvatarText.ToString();
+            vh.AvatarText.Text = Items[position].AvatarText.ToString();
         }
     }
 }

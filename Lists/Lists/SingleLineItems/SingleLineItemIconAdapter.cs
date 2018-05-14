@@ -28,7 +28,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
             SingleLineItemIconViewHolder vh = holder as SingleLineItemIconViewHolder;
             
             vh.PrimaryText.Text = Items[position].PrimaryText + $" #{(position + 1)}";
-            vh.Icon.SetImageResource(Items[position].IconId);
+            vh.IconImage.SetImageResource(Items[position].IconId);
         }
     }
 }

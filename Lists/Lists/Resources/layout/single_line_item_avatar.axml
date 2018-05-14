@@ -3,19 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_avatar_item_height">
     <RelativeLayout
-        android:id="@+id/icon_container"
+        android:id="@+id/avatar_container"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:paddingTop="@dimen/list_avatar_padding_top"
         android:paddingLeft="@dimen/list_avatar_padding_left"
         android:paddingRight="@dimen/list_avatar_padding_right">
         <ImageView
-            android:id="@+id/icon_profile"
+            android:id="@+id/avatar_image"
             android:layout_width="@dimen/list_avatar_width_height"
             android:layout_height="@dimen/list_avatar_width_height"
             android:src="@drawable/avatar_circle" />
         <TextView
-            android:id="@+id/icon_text"
+            android:id="@+id/avatar_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -32,7 +32,7 @@
         android:paddingLeft="@dimen/list_avatar_text_padding_left"
         android:paddingRight="@dimen/list_padding_right">
         <TextView
-            android:id="@+id/tvPrimary"
+            android:id="@+id/text_primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="Roboto Regular"

@@ -10,7 +10,7 @@
         android:paddingLeft="@dimen/list_icon_padding_left"
         android:paddingRight="@dimen/list_icon_padding_right">
         <ImageView
-            android:id="@+id/icon_main"
+            android:id="@+id/icon_image"
             android:layout_width="@dimen/list_icon_width_height"
             android:layout_height="@dimen/list_icon_width_height"
             android:tint="@color/list_icon" />
@@ -21,7 +21,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_vertical"
-        android:paddingLeft="@dimen/list_avatar_text_padding_left"
+        android:paddingLeft="@dimen/list_icon_text_padding_left"
         android:paddingRight="@dimen/list_padding_right">
         <TextView
             android:id="@+id/tvPrimary"
