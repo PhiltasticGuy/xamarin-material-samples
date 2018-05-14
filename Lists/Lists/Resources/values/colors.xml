@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <color name="divider">#e0e0e0</color>
+  <color name="list_icon">#f00</color>
   <color name="list_avatar_circle">#f00</color>
   <color name="list_avatar_text">#fff</color>
 </resources>

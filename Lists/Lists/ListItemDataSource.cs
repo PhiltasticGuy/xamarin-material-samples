@@ -5,83 +5,103 @@
         static ListItem[] BuiltInItems = {
             new ListItem {
                 PrimaryText = "PrimaryTextPrimaryTextPrimaryTextPrimaryText",
-                IconText = 'A'
+                AvatarText = 'A',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "PrimaryText PrimaryText PrimaryText PrimaryText",
-                IconText = 'B'
+                AvatarText = 'B',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text Primary Text Primary Text Primary Text",
-                IconText = 'C'
+                AvatarText = 'C',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'D'
+                AvatarText = 'D',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'E'
+                AvatarText = 'E',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'F'
+                AvatarText = 'F',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'G'
+                AvatarText = 'G',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'H'
+                AvatarText = 'H',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'I'
+                AvatarText = 'I',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'J'
+                AvatarText = 'J',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'K'
+                AvatarText = 'K',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'L'
+                AvatarText = 'L',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'M'
+                AvatarText = 'M',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'N'
+                AvatarText = 'N',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'O'
+                AvatarText = 'O',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'P'
+                AvatarText = 'P',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'Q'
+                AvatarText = 'Q',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'R'
+                AvatarText = 'R',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'S'
+                AvatarText = 'S',
+                IconId = Resource.Drawable.ic_android_black_24dp
             },
             new ListItem {
                 PrimaryText = "Primary Text",
-                IconText = 'T'
+                AvatarText = 'T',
+                IconId = Resource.Drawable.ic_android_black_24dp
             }
         };
 

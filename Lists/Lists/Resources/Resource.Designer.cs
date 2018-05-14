@@ -913,44 +913,44 @@ namespace Xamarin.Material.Samples.Lists
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0a0041
-			public const int abc_background_cache_hint_selector_material_dark = 2131361857;
-			
 			// aapt resource value: 0x7f0a0042
-			public const int abc_background_cache_hint_selector_material_light = 2131361858;
+			public const int abc_background_cache_hint_selector_material_dark = 2131361858;
 			
 			// aapt resource value: 0x7f0a0043
-			public const int abc_btn_colored_borderless_text_material = 2131361859;
+			public const int abc_background_cache_hint_selector_material_light = 2131361859;
 			
 			// aapt resource value: 0x7f0a0044
-			public const int abc_btn_colored_text_material = 2131361860;
+			public const int abc_btn_colored_borderless_text_material = 2131361860;
 			
 			// aapt resource value: 0x7f0a0045
-			public const int abc_color_highlight_material = 2131361861;
+			public const int abc_btn_colored_text_material = 2131361861;
 			
 			// aapt resource value: 0x7f0a0046
-			public const int abc_hint_foreground_material_dark = 2131361862;
+			public const int abc_color_highlight_material = 2131361862;
 			
 			// aapt resource value: 0x7f0a0047
-			public const int abc_hint_foreground_material_light = 2131361863;
+			public const int abc_hint_foreground_material_dark = 2131361863;
+			
+			// aapt resource value: 0x7f0a0048
+			public const int abc_hint_foreground_material_light = 2131361864;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_input_method_navigation_guard = 2131361792;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int abc_primary_text_disable_only_material_dark = 2131361864;
-			
 			// aapt resource value: 0x7f0a0049
-			public const int abc_primary_text_disable_only_material_light = 2131361865;
+			public const int abc_primary_text_disable_only_material_dark = 2131361865;
 			
 			// aapt resource value: 0x7f0a004a
-			public const int abc_primary_text_material_dark = 2131361866;
+			public const int abc_primary_text_disable_only_material_light = 2131361866;
 			
 			// aapt resource value: 0x7f0a004b
-			public const int abc_primary_text_material_light = 2131361867;
+			public const int abc_primary_text_material_dark = 2131361867;
 			
 			// aapt resource value: 0x7f0a004c
-			public const int abc_search_url_text = 2131361868;
+			public const int abc_primary_text_material_light = 2131361868;
+			
+			// aapt resource value: 0x7f0a004d
+			public const int abc_search_url_text = 2131361869;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int abc_search_url_text_normal = 2131361793;
@@ -961,29 +961,29 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f0a0003
 			public const int abc_search_url_text_selected = 2131361795;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int abc_secondary_text_material_dark = 2131361869;
-			
 			// aapt resource value: 0x7f0a004e
-			public const int abc_secondary_text_material_light = 2131361870;
+			public const int abc_secondary_text_material_dark = 2131361870;
 			
 			// aapt resource value: 0x7f0a004f
-			public const int abc_tint_btn_checkable = 2131361871;
+			public const int abc_secondary_text_material_light = 2131361871;
 			
 			// aapt resource value: 0x7f0a0050
-			public const int abc_tint_default = 2131361872;
+			public const int abc_tint_btn_checkable = 2131361872;
 			
 			// aapt resource value: 0x7f0a0051
-			public const int abc_tint_edittext = 2131361873;
+			public const int abc_tint_default = 2131361873;
 			
 			// aapt resource value: 0x7f0a0052
-			public const int abc_tint_seek_thumb = 2131361874;
+			public const int abc_tint_edittext = 2131361874;
 			
 			// aapt resource value: 0x7f0a0053
-			public const int abc_tint_spinner = 2131361875;
+			public const int abc_tint_seek_thumb = 2131361875;
 			
 			// aapt resource value: 0x7f0a0054
-			public const int abc_tint_switch_track = 2131361876;
+			public const int abc_tint_spinner = 2131361876;
+			
+			// aapt resource value: 0x7f0a0055
+			public const int abc_tint_switch_track = 2131361877;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int accent_material_dark = 2131361796;
@@ -1057,11 +1057,14 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f0a001a
 			public const int highlighted_text_material_light = 2131361818;
 			
-			// aapt resource value: 0x7f0a003f
-			public const int list_avatar_circle = 2131361855;
-			
 			// aapt resource value: 0x7f0a0040
-			public const int list_avatar_text = 2131361856;
+			public const int list_avatar_circle = 2131361856;
+			
+			// aapt resource value: 0x7f0a0041
+			public const int list_avatar_text = 2131361857;
+			
+			// aapt resource value: 0x7f0a003f
+			public const int list_icon = 2131361855;
 			
 			// aapt resource value: 0x7f0a001b
 			public const int material_blue_grey_800 = 2131361819;
@@ -1156,11 +1159,11 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f0a0036
 			public const int switch_thumb_disabled_material_light = 2131361846;
 			
-			// aapt resource value: 0x7f0a0055
-			public const int switch_thumb_material_dark = 2131361877;
-			
 			// aapt resource value: 0x7f0a0056
-			public const int switch_thumb_material_light = 2131361878;
+			public const int switch_thumb_material_dark = 2131361878;
+			
+			// aapt resource value: 0x7f0a0057
+			public const int switch_thumb_material_light = 2131361879;
 			
 			// aapt resource value: 0x7f0a0037
 			public const int switch_thumb_normal_material_dark = 2131361847;
@@ -1469,26 +1472,41 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f050005
 			public const int item_touch_helper_swipe_escape_velocity = 2131034117;
 			
-			// aapt resource value: 0x7f05007d
-			public const int list_avatar_font_size = 2131034237;
+			// aapt resource value: 0x7f050082
+			public const int list_avatar_font_size = 2131034242;
 			
 			// aapt resource value: 0x7f050076
 			public const int list_avatar_item_height = 2131034230;
 			
-			// aapt resource value: 0x7f05007f
-			public const int list_avatar_padding_left = 2131034239;
+			// aapt resource value: 0x7f050084
+			public const int list_avatar_padding_left = 2131034244;
 			
-			// aapt resource value: 0x7f050080
-			public const int list_avatar_padding_right = 2131034240;
+			// aapt resource value: 0x7f050085
+			public const int list_avatar_padding_right = 2131034245;
 			
-			// aapt resource value: 0x7f05007e
-			public const int list_avatar_padding_top = 2131034238;
+			// aapt resource value: 0x7f050083
+			public const int list_avatar_padding_top = 2131034243;
+			
+			// aapt resource value: 0x7f050086
+			public const int list_avatar_text_padding_left = 2131034246;
 			
 			// aapt resource value: 0x7f050081
-			public const int list_avatar_text_padding_left = 2131034241;
+			public const int list_avatar_width_height = 2131034241;
+			
+			// aapt resource value: 0x7f05007e
+			public const int list_icon_padding_bottom = 2131034238;
+			
+			// aapt resource value: 0x7f05007f
+			public const int list_icon_padding_left = 2131034239;
+			
+			// aapt resource value: 0x7f050080
+			public const int list_icon_padding_right = 2131034240;
+			
+			// aapt resource value: 0x7f05007d
+			public const int list_icon_padding_top = 2131034237;
 			
 			// aapt resource value: 0x7f05007c
-			public const int list_avatar_width_height = 2131034236;
+			public const int list_icon_width_height = 2131034236;
 			
 			// aapt resource value: 0x7f050075
 			public const int list_item_height = 2131034229;
@@ -1846,46 +1864,55 @@ namespace Xamarin.Material.Samples.Lists
 			public const int divider = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int notification_action_background = 2130837589;
+			public const int ic_android_black_24dp = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int notification_bg = 2130837590;
+			public const int ic_favorite_black_24dp = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int notification_bg_low = 2130837591;
+			public const int ic_favorite_border_black_24dp = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int notification_bg_low_normal = 2130837592;
+			public const int notification_action_background = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int notification_bg_low_pressed = 2130837593;
+			public const int notification_bg = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int notification_bg_normal = 2130837594;
+			public const int notification_bg_low = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int notification_bg_normal_pressed = 2130837595;
+			public const int notification_bg_low_normal = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notification_icon_background = 2130837596;
-			
-			// aapt resource value: 0x7f020061
-			public const int notification_template_icon_bg = 2130837601;
-			
-			// aapt resource value: 0x7f020062
-			public const int notification_template_icon_low_bg = 2130837602;
+			public const int notification_bg_low_pressed = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_tile_bg = 2130837597;
+			public const int notification_bg_normal = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notify_panel_notification_icon_bg = 2130837598;
+			public const int notification_bg_normal_pressed = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int tooltip_frame_dark = 2130837599;
+			public const int notification_icon_background = 2130837599;
+			
+			// aapt resource value: 0x7f020064
+			public const int notification_template_icon_bg = 2130837604;
+			
+			// aapt resource value: 0x7f020065
+			public const int notification_template_icon_low_bg = 2130837605;
 			
 			// aapt resource value: 0x7f020060
-			public const int tooltip_frame_light = 2130837600;
+			public const int notification_tile_bg = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int notify_panel_notification_icon_bg = 2130837601;
+			
+			// aapt resource value: 0x7f020062
+			public const int tooltip_frame_dark = 2130837602;
+			
+			// aapt resource value: 0x7f020063
+			public const int tooltip_frame_light = 2130837603;
 			
 			static Drawable()
 			{
@@ -2065,6 +2092,9 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f060077
 			public const int icon_group = 2131099767;
 			
+			// aapt resource value: 0x7f06007e
+			public const int icon_main = 2131099774;
+			
 			// aapt resource value: 0x7f06007b
 			public const int icon_profile = 2131099771;
 			
@@ -2101,8 +2131,8 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f06006c
 			public const int media_actions = 2131099756;
 			
-			// aapt resource value: 0x7f06007f
-			public const int message = 2131099775;
+			// aapt resource value: 0x7f060080
+			public const int message = 2131099776;
 			
 			// aapt resource value: 0x7f06007d
 			public const int message_container = 2131099773;
@@ -2149,8 +2179,8 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f060070
 			public const int right_side = 2131099760;
 			
-			// aapt resource value: 0x7f06007e
-			public const int rvSingleItems = 2131099774;
+			// aapt resource value: 0x7f06007f
+			public const int rvSingleItems = 2131099775;
 			
 			// aapt resource value: 0x7f06001a
 			public const int screen = 2131099674;
@@ -2467,13 +2497,16 @@ namespace Xamarin.Material.Samples.Lists
 			public const int single_line_item_avatar = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int single_line_item_main = 2130903087;
+			public const int single_line_item_icon = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int support_simple_spinner_dropdown_item = 2130903088;
+			public const int single_line_item_main = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int tooltip = 2130903089;
+			public const int support_simple_spinner_dropdown_item = 2130903089;
+			
+			// aapt resource value: 0x7f030032
+			public const int tooltip = 2130903090;
 			
 			static Layout()
 			{

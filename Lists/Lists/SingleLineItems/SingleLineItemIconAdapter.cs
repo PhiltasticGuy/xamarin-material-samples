@@ -3,32 +3,32 @@ using Android.Views;
 
 namespace Xamarin.Material.Samples.Lists.SingleLineItems
 {
-    class SingleLineItemAvatarAdapter : RecyclerView.Adapter
+    class SingleLineItemIconAdapter : RecyclerView.Adapter
     { 
         public ListItemDataSource Items { get; private set; }
 
         public override int ItemCount => Items.Count;
 
-        public SingleLineItemAvatarAdapter(ListItemDataSource items) => Items = items;
+        public SingleLineItemIconAdapter(ListItemDataSource items) => Items = items;
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
             View itemView =
                 LayoutInflater
                     .From(parent.Context)
-                    .Inflate(Resource.Layout.single_line_item_avatar, parent, false);
+                    .Inflate(Resource.Layout.single_line_item_icon, parent, false);
 
-            SingleLineItemAvatarViewHolder vh = new SingleLineItemAvatarViewHolder(itemView);
+            SingleLineItemIconViewHolder vh = new SingleLineItemIconViewHolder(itemView);
 
             return vh;
         }
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-            SingleLineItemAvatarViewHolder vh = holder as SingleLineItemAvatarViewHolder;
+            SingleLineItemIconViewHolder vh = holder as SingleLineItemIconViewHolder;
             
             vh.PrimaryText.Text = Items[position].PrimaryText + $" #{(position + 1)}";
-            vh.IconText.Text = Items[position].AvatarText.ToString();
+            vh.Icon.SetImageResource(Items[position].IconId);
         }
     }
 }
