@@ -1472,6 +1472,15 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f050005
 			public const int item_touch_helper_swipe_escape_velocity = 2131034117;
 			
+			// aapt resource value: 0x7f050088
+			public const int list_avatar_action_padding_left = 2131034248;
+			
+			// aapt resource value: 0x7f050089
+			public const int list_avatar_action_padding_right = 2131034249;
+			
+			// aapt resource value: 0x7f050087
+			public const int list_avatar_action_padding_top = 2131034247;
+			
 			// aapt resource value: 0x7f050083
 			public const int list_avatar_font_size = 2131034243;
 			
@@ -1487,8 +1496,8 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f050084
 			public const int list_avatar_padding_top = 2131034244;
 			
-			// aapt resource value: 0x7f050087
-			public const int list_avatar_text_padding_left = 2131034247;
+			// aapt resource value: 0x7f05008a
+			public const int list_avatar_text_padding_left = 2131034250;
 			
 			// aapt resource value: 0x7f050082
 			public const int list_avatar_width_height = 2131034242;
@@ -2098,14 +2107,14 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f06003d
 			public const int icon = 2131099709;
 			
-			// aapt resource value: 0x7f06007e
-			public const int icon_container = 2131099774;
+			// aapt resource value: 0x7f06007f
+			public const int icon_container = 2131099775;
 			
 			// aapt resource value: 0x7f060077
 			public const int icon_group = 2131099767;
 			
-			// aapt resource value: 0x7f06007f
-			public const int icon_image = 2131099775;
+			// aapt resource value: 0x7f06007e
+			public const int icon_image = 2131099774;
 			
 			// aapt resource value: 0x7f06002c
 			public const int ifRoom = 2131099692;
@@ -2137,8 +2146,8 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f06006c
 			public const int media_actions = 2131099756;
 			
-			// aapt resource value: 0x7f060082
-			public const int message = 2131099778;
+			// aapt resource value: 0x7f060081
+			public const int message = 2131099777;
 			
 			// aapt resource value: 0x7f06007d
 			public const int message_container = 2131099773;
@@ -2185,8 +2194,8 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f060070
 			public const int right_side = 2131099760;
 			
-			// aapt resource value: 0x7f060081
-			public const int rvSingleItems = 2131099777;
+			// aapt resource value: 0x7f060080
+			public const int rvSingleItems = 2131099776;
 			
 			// aapt resource value: 0x7f06001a
 			public const int screen = 2131099674;
@@ -2304,9 +2313,6 @@ namespace Xamarin.Material.Samples.Lists
 			
 			// aapt resource value: 0x7f060049
 			public const int topPanel = 2131099721;
-			
-			// aapt resource value: 0x7f060080
-			public const int tvPrimary = 2131099776;
 			
 			// aapt resource value: 0x7f06001f
 			public const int uniform = 2131099679;
@@ -2506,16 +2512,19 @@ namespace Xamarin.Material.Samples.Lists
 			public const int single_line_item_avatar = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int single_line_item_icon = 2130903087;
+			public const int single_line_item_avatar_action = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int single_line_item_main = 2130903088;
+			public const int single_line_item_icon = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int support_simple_spinner_dropdown_item = 2130903089;
+			public const int single_line_item_main = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int tooltip = 2130903090;
+			public const int support_simple_spinner_dropdown_item = 2130903090;
+			
+			// aapt resource value: 0x7f030033
+			public const int tooltip = 2130903091;
 			
 			static Layout()
 			{

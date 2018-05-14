@@ -13,7 +13,8 @@
             android:id="@+id/icon_image"
             android:layout_width="@dimen/list_icon_width_height"
             android:layout_height="@dimen/list_icon_width_height"
-            android:tint="@color/list_icon" />
+            android:tint="@color/list_icon"
+            android:src="@drawable/ic_android_black_24dp" />
     </RelativeLayout>
     <LinearLayout
         android:id="@+id/message_container"
@@ -24,7 +25,7 @@
         android:paddingLeft="@dimen/list_icon_text_padding_left"
         android:paddingRight="@dimen/list_padding_right">
         <TextView
-            android:id="@+id/tvPrimary"
+            android:id="@+id/text_primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="Roboto Regular"

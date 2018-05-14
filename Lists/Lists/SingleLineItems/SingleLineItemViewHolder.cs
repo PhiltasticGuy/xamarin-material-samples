@@ -10,7 +10,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
         public SingleLineItemViewHolder(View itemView)
             : base(itemView)
         {
-            PrimaryText = itemView.FindViewById<AppCompatTextView>(Resource.Id.tvPrimary);
+            PrimaryText = itemView.FindViewById<AppCompatTextView>(Resource.Id.text_primary);
         }
     }
 }

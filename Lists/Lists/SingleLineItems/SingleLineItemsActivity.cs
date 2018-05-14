@@ -38,7 +38,7 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
                 _recyclerView.AddItemDecoration(dividerItemDecoration);
 
                 _items = new ListItemDataSource();
-                _adapter = new SingleLineItemIconAdapter(_items);
+                _adapter = new SingleLineItemAvatarActionAdapter(_items);
 
                 _recyclerView.SetAdapter(_adapter);
             }
