@@ -51,7 +51,7 @@
         android:paddingLeft="@dimen/list_avatar_action_padding_left"
         android:paddingRight="@dimen/list_avatar_action_padding_right">
         <ImageView
-            android:id="@+id/icon_image"
+            android:id="@+id/action_image"
             android:layout_width="@dimen/list_icon_width_height"
             android:layout_height="@dimen/list_icon_width_height"
             android:tint="@color/list_icon"

@@ -4,6 +4,7 @@ using Android.Support.V4.Content;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Util;
+using Android.Widget;
 using System;
 
 namespace Xamarin.Material.Samples.Lists.SingleLineItems
@@ -40,12 +41,28 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
                 _items = new ListItemDataSource();
                 _adapter = new SingleLineItemAvatarActionAdapter(_items);
 
+                if (_adapter as SingleLineItemAvatarActionAdapter != null)
+                {
+                    SingleLineItemAvatarActionAdapter adapter = _adapter as SingleLineItemAvatarActionAdapter;
+                    adapter.ItemSecondaryActionClicked += OnItemSecondaryActionClicked;
+                }
+
                 _recyclerView.SetAdapter(_adapter);
             }
             catch (Exception ex)
             {
                 Log.Debug("SingleLineItemActivity", ex.ToString());
             }
+        }
+
+        private void OnItemSecondaryActionClicked(object sender, int position)
+        {
+            // Perform Activity actions in response to event.
+            Toast.MakeText(
+                this, 
+                $"Item #{(position + 1)} {(_items[position].IsChecked ? "liked" : "unliked")}!", 
+                ToastLength.Short
+            ).Show();
         }
     }
 }

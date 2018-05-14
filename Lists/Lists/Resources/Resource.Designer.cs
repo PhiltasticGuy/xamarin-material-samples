@@ -2107,14 +2107,14 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f06003d
 			public const int icon = 2131099709;
 			
-			// aapt resource value: 0x7f06007f
-			public const int icon_container = 2131099775;
+			// aapt resource value: 0x7f06007e
+			public const int icon_container = 2131099774;
 			
 			// aapt resource value: 0x7f060077
 			public const int icon_group = 2131099767;
 			
-			// aapt resource value: 0x7f06007e
-			public const int icon_image = 2131099774;
+			// aapt resource value: 0x7f06007f
+			public const int icon_image = 2131099775;
 			
 			// aapt resource value: 0x7f06002c
 			public const int ifRoom = 2131099692;
