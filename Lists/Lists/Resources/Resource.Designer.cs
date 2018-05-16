@@ -2152,8 +2152,8 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f060081
 			public const int message = 2131099777;
 			
-			// aapt resource value: 0x7f06007a
-			public const int message_container = 2131099770;
+			// aapt resource value: 0x7f060079
+			public const int message_container = 2131099769;
 			
 			// aapt resource value: 0x7f060023
 			public const int middle = 2131099683;
@@ -2296,8 +2296,8 @@ namespace Xamarin.Material.Samples.Lists
 			// aapt resource value: 0x7f060044
 			public const int textSpacerNoTitle = 2131099716;
 			
-			// aapt resource value: 0x7f060079
-			public const int text_primary = 2131099769;
+			// aapt resource value: 0x7f06007a
+			public const int text_primary = 2131099770;
 			
 			// aapt resource value: 0x7f060071
 			public const int time = 2131099761;
