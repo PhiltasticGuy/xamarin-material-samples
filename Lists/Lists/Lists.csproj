@@ -98,7 +98,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SingleLineItems\SingleLineItemActionAdapter.cs" />
     <Compile Include="SingleLineItems\SingleLineItemAvatarActionAdapter.cs" />
+    <Compile Include="SingleLineItems\SingleLineItemActionViewHolder.cs" />
     <Compile Include="SingleLineItems\SingleLineItemAvatarActionViewHolder.cs" />
     <Compile Include="SingleLineItems\SingleLineItemIconAdapter.cs" />
     <Compile Include="SingleLineItems\SingleLineItemIconViewHolder.cs" />
@@ -174,6 +176,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\single_line_item_avatar_action.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\single_line_item_action.axml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
     </AndroidResource>

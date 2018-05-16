@@ -3,6 +3,7 @@ using Android.Views;
 
 namespace Xamarin.Material.Samples.Lists.SingleLineItems
 {
+    //TODO: PT- It would be interesting to merge all Avatar classes into a single configurable Adapter.
     class SingleLineItemAvatarAdapter : RecyclerView.Adapter
     { 
         public ListItemDataSource Items { get; private set; }

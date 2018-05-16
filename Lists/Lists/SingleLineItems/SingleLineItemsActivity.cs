@@ -39,12 +39,18 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
                 _recyclerView.AddItemDecoration(dividerItemDecoration);
 
                 _items = new ListItemDataSource();
-                _adapter = new SingleLineItemAvatarActionAdapter(_items);
+                _adapter = new SingleLineItemActionAdapter(_items);
+
+                if (_adapter as SingleLineItemActionAdapter != null)
+                {
+                    SingleLineItemActionAdapter adapter = _adapter as SingleLineItemActionAdapter;
+                    adapter.ItemSecondaryActionClicked += AvatarAction_OnItemSecondaryActionClicked;
+                }
 
                 if (_adapter as SingleLineItemAvatarActionAdapter != null)
                 {
                     SingleLineItemAvatarActionAdapter adapter = _adapter as SingleLineItemAvatarActionAdapter;
-                    adapter.ItemSecondaryActionClicked += OnItemSecondaryActionClicked;
+                    adapter.ItemSecondaryActionClicked += AvatarAction_OnItemSecondaryActionClicked;
                 }
 
                 _recyclerView.SetAdapter(_adapter);
@@ -55,7 +61,17 @@ namespace Xamarin.Material.Samples.Lists.SingleLineItems
             }
         }
 
-        private void OnItemSecondaryActionClicked(object sender, int position)
+        private void Action_OnItemSecondaryActionClicked(object sender, int position)
+        {
+            // Perform Activity actions in response to event.
+            Toast.MakeText(
+                this,
+                $"Item #{(position + 1)} {(_items[position].IsChecked ? "liked" : "unliked")}!",
+                ToastLength.Short
+            ).Show();
+        }
+
+        private void AvatarAction_OnItemSecondaryActionClicked(object sender, int position)
         {
             // Perform Activity actions in response to event.
             Toast.MakeText(
